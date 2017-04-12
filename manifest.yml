@@ -1,10 +1,9 @@
 ---
 applications:
-- name: insurance-bot-dashboard
-  host: insurance-bot-dashboard
-  domain: demo.ibmbluemix.com.br
+- name: bv-bot-dashboard
+  host: bv-bot-dashboard
   memory: 256M
   services:
-  - insurance-bot-db
-  - insurance-tone_analyzer
-  - insurance-bot-language-translator
+  - bv-bot-db
+  - bv-tone_analyzer
+  - bv-bot-language-translator

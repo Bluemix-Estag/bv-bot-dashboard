@@ -2,7 +2,7 @@
   "services": {
     "cloudantNoSQLDB": [
       {
-        "name": "insurance-bot-db",
+        "name": "bv-bot-db",
         "label": "cloudantNoSQLDB",
         "plan": "Lite",
         "credentials": {
@@ -25,7 +25,7 @@
             "label": "tone_analyzer",
             "provider": null,
             "plan": "standard",
-            "name": "insurance-tone_analyzer",
+            "name": "bv-tone_analyzer",
             "tags": [
                 "watson",
                 "ibm_created",
@@ -36,7 +36,7 @@
     "language_translator": [
       {
         "label": "language_translator",
-        "name": "insurance-bot-language-translator",
+        "name": "bv-bot-language-translator",
         "credentials": {
             "url": "https://gateway.watsonplatform.net/language-translator/api",
             "password": "",

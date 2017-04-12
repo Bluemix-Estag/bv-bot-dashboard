@@ -1,7 +1,7 @@
 {
-  "name": "insurance-bot-dashboard",
+  "name": "bv-bot-dashboard",
   "version": "0.1.0",
-  "description": "Insurance Bot Admin Dashboard",
+  "description": "BV Chatbot Admin Dashboard",
   "main": "index.js",
   "engines": {
     "node": "6.7.0",
