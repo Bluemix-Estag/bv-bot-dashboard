@@ -6,8 +6,8 @@ import FakeActionsPane from './FakeActionsPane';
 export const CoreLayout = ({ children }) => (
   <div className={classes.layoutWrapper}>
     <div className={classes.appBar}>
-      <img className={classes.logo} src="/logo.svg" role="presentation" />
-      <span className={classes.title}>BV Chatbot</span>
+      <img className={classes.logo} src="/bv-logo-novo.png" role="presentation" />
+      <span className={classes.title}>BV Bot Painel do Administrador</span>
     </div>
     <div className={classes.mainContainer}>
       <FakeActionsPane />
